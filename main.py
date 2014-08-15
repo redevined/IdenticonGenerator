@@ -27,7 +27,7 @@ def parseArguments() :
 	
 	for val in args.background_color :
 		if not 0 <= val < 256 :
-			raise argparse.ArgumentTypeError("RGB values hav to be in range 256")
+			raise argparse.ArgumentTypeError("RGB values have to be in range 256")
 	
 	return vars(args)
 
